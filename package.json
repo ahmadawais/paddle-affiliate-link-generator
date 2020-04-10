@@ -1,6 +1,6 @@
 {
 	"name": "paddle-affiliate-link-generator",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Give me the affiliate ID, I'll give you the Paddle affiliate link. Simple.",
 	"license": "MIT",
 	"repository": "ahmadawais/paddle-affiliate-link-generator",
