@@ -26,7 +26,9 @@ npx paddle-affiliate-link-generator <affiliateID>
 
 ```sh
 paddle-affiliate-link-generator <affiliateID>
-# This should return a link copied to your clipboard.
+palgcli <affiliateID> # Short version.
+palgcli 37147
+# This should return an affiliate link copied to your clipboard.
 ```
 
 <br>
