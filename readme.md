@@ -13,6 +13,9 @@
 
 ```sh
 npm install -g paddle-affiliate-link-generator
+
+# OR.
+npx paddle-affiliate-link-generator <affiliateID>
 ```
 
 <br>
@@ -21,8 +24,9 @@ npm install -g paddle-affiliate-link-generator
 
 ## Usage
 
-```js
-paddle-affiliate-link-generator <command> [options]
+```sh
+paddle-affiliate-link-generator <affiliateID>
+# This should return a link copied to your clipboard.
 ```
 
 <br>

@@ -7,16 +7,20 @@ const unhandledError = require('cli-handle-unhandled');
 module.exports = async () => {
 	unhandledError();
 	checkNode(`12`);
-	welcome(`paddle-affiliate-link-generator`, `by Awais.dev\n${pkgJSON.description}`, {
-		bgColor: `#007C91`,
-		color: `#FFFFFF`,
-		bold: true,
-		clear: true,
-		version: `v${pkgJSON.version}`
-	});
+	welcome(
+		`paddle-affiliate-link-generator`,
+		`by Awais.dev\n${pkgJSON.description}`,
+		{
+			bgColor: `#0097FF`,
+			color: `#FFFFFF`,
+			bold: true,
+			clear: true,
+			version: `v${pkgJSON.version}`
+		}
+	);
 	updateNotifier({
 		pkg: pkgJSON,
 		shouldNotifyInNpmScript: true,
 		updateCheckInterval: 1000 * 60 * 60 * 24 * 7 // 1 week.
-	}).notify({ isGlobal: true });
+	}).notify({isGlobal: true});
 };

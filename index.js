@@ -1,17 +1,22 @@
 #!/usr/bin/env node
 
-const ora = require('ora');
-const spinner = ora({text: ''});
 const cli = require('./utils/cli.js');
 const init = require('./utils/init.js');
 const theEnd = require('./utils/theEnd.js');
 const handleError = require('cli-handle-error');
+const clipboardy = require('clipboardy');
+const to = require('await-to-js').default;
+const sym = require('log-symbols');
 
 // CLI.
-const [input] = cli.input;
-const option = cli.flags.option;
+const [affiliateID] = cli.input;
+const affiliateLink = `https://a.paddle.com/v2/click/16413/${affiliateID}?link=1227`;
 
-module.exports = async () => {
+(async () => {
 	init();
+	const [err, res] = await to(clipboardy.write(affiliateLink));
+	handleError(`CLIPBOARD`, err);
+	console.log(`${sym.info} Copied to your clipboard:`);
+	console.log(affiliateLink);
 	theEnd();
-};
+})();

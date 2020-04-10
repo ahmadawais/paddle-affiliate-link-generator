@@ -1,7 +1,7 @@
 {
 	"name": "paddle-affiliate-link-generator",
 	"version": "0.0.1",
-	"description": "Give me the affiliate ID, I&#x27;ll give you the Paddle affiliate link. Simple.",
+	"description": "Give me the affiliate ID, I'll give you the Paddle affiliate link. Simple.",
 	"license": "MIT",
 	"repository": "ahmadawais/paddle-affiliate-link-generator",
 	"author": {
@@ -14,7 +14,8 @@
 		"node": ">=12.x"
 	},
 	"bin": {
-		"paddle-affiliate-link-generator": "index.js"
+		"paddle-affiliate-link-generator": "index.js",
+		"palgcli": "index.js"
 	},
 	"files": [
 		"index.js",
@@ -22,6 +23,8 @@
 	],
 	"keywords": [
 		"paddle-affiliate-link-generator",
+		"paddle-affiliate",
+		"paddle",
 		"Ahmad Awais",
 		"ahmadawais"
 	],
@@ -36,13 +39,12 @@
 	},
 	"dependencies": {
 		"await-to-js": "^2.1.1",
-		"chalk": "^4.0.0",
 		"cli-check-node": "^1.3.0",
 		"cli-handle-error": "^4.1.0",
 		"cli-handle-unhandled": "^1.1.0",
 		"cli-welcome": "^1.4.0",
+		"clipboardy": "^2.3.0",
 		"meow": "^6.1.0",
-		"ora": "^4.0.3",
 		"update-notifier": "^4.1.0"
 	}
 }
