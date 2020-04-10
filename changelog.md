@@ -29,12 +29,28 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [1.0.1](https://github.com/ahmadawais/paddle-affiliate-link-generator/compare/1.0.0...1.0.1)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Lingo [`a6aabe5`](https://github.com/ahmadawais/paddle-affiliate-link-generator/commit/a6aabe54b79bd87c20b845a4c652b639993215bf) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: 1.0.0
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > 📦 First commit [`b65e179`](https://github.com/ahmadawais/paddle-affiliate-link-generator/commit/b65e179d60bad5d783a1f2d7ed210de0a3b38c1e) <br>
 > 📦 First version [`70ad7bb`](https://github.com/ahmadawais/paddle-affiliate-link-generator/commit/70ad7bb91028d0106bdcfc7f63b476afab454853) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`a3e1ad7`](https://github.com/ahmadawais/paddle-affiliate-link-generator/commit/a3e1ad73c6404f3bc1f053ec9a577159b37e5d34) <br>
 
 <br>
 
